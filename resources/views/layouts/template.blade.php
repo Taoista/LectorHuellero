@@ -32,6 +32,7 @@
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     @yield('content-css')
+    @livewireStyles
 </head>
 
 <body class="skin-dark">
@@ -95,7 +96,7 @@
     <script src="{{ asset('assets/js/plugins/vmap/maps/jquery.vmap.world.js') }}"></script>
     <script src="{{ asset('assets/js/plugins/vmap/maps/samples/jquery.vmap.sampledata.js') }}"></script>
     <script src="{{ asset('assets/js/plugins/vmap/vmap.active.js') }}"></script>
-
+    @livewireScripts
 </body>
 
 </html>
