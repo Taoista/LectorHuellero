@@ -66,7 +66,9 @@
 
     <!-- JS
 ============================================ -->
-
+    <script>
+        const _Url = '{{ url("/")."/" }}'
+    </script>
     <!-- Global Vendor, plugins & Activation JS -->
     <script src="{{ asset('assets/js/vendor/modernizr-3.6.0.min.js') }}"></script>
     <script src="{{ asset('assets/js/vendor/jquery-3.3.1.min.js') }}"></script>
@@ -97,6 +99,7 @@
     <script src="{{ asset('assets/js/plugins/vmap/maps/samples/jquery.vmap.sampledata.js') }}"></script>
     <script src="{{ asset('assets/js/plugins/vmap/vmap.active.js') }}"></script>
     @livewireScripts
+    @yield("content-script")
 </body>
 
 </html>
