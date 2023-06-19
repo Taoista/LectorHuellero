@@ -19,45 +19,10 @@
             <div class="box-head">
                 <h3 class="title">Formulario de Enrolamiento</h3>
             </div>
-            <div class="box-body">
-                <div class="row mbn-15">
 
-                    <div class="col-lg-4 mb-15">
-                        <label for="">Codigo</label>
-                        <input type="text" class="form-control" placeholder="Input default">
-                    </div>
-
-                    <div class="col-lg-4 mb-15">
-                        <label for="">Rut</label>
-                        <input type="text" class="form-control" placeholder="Input default">
-                    </div>
-
-                    <div class="col-lg-4 mb-15">
-                       <img src="" alt="">
-                    </div>
-
-                    <div class="col-lg-4 mb-15">
-                        <label for="">blob</label>
-                        <input type="text" class="form-control" placeholder="Input default">
-                     </div>
+            @livewire("clients.entollement")
 
 
-
-                    {{-- <div class="col-lg-4 mb-15"><input type="text" class="form-control" placeholder="Input default"></div> --}}
-                    {{-- <div class="col-lg-4 mb-15"><input type="text" class="form-control" placeholder="Input default"></div> --}}
-                    {{-- <div class="col-lg-4 mb-15"><input type="text" class="form-control dark" placeholder="Input dark"></div>
-                    <div class="col-lg-4 mb-15"><input type="text" class="form-control primary" placeholder="Input primary"></div>
-                    <div class="col-lg-4 mb-15"><input type="text" class="form-control secondary" placeholder="Input secondary"></div>
-                    <div class="col-lg-4 mb-15"><input type="text" class="form-control success" placeholder="Input success"></div>
-                    <div class="col-lg-4 mb-15"><input type="text" class="form-control danger" placeholder="Input danger"></div>
-                    <div class="col-lg-4 mb-15"><input type="text" class="form-control warning" placeholder="Input warning"></div>
-                    <div class="col-lg-4 mb-15"><input type="text" class="form-control info" placeholder="Input info"></div> --}}
-
-                </div>
-            </div>
-            <div class="box-foot">
-                <p>Control Input State using classes like <code>.dark</code>, <code>.primary</code>, <code>.secondary</code>, <code>.success</code>, <code>.danger</code>, <code>.warning</code>, <code>.info</code> classes.</p>
-            </div>
         </div>
     </div>
 

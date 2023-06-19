@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StartController;
+use App\Http\Controllers\ClientController;
+
+use App\Http\Livewire\Clients\Entollement;
+// use App\Http\Livewire\MiComponente;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +23,12 @@ Route::get('/', function () {
 
 
 Route::get("/start", [StartController::class,"start"]);
+
+
+
+
+// * start client
+Route::get("/client", [ClientController::class,"client"]);
+
+// Route::get("/demo_demo", [Entollement::class,"demo_demo"]);
+
